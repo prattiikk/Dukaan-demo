@@ -27,7 +27,7 @@ const Transactions = () => {
       <div className="text-xl font-medium h-[40px]">
         Transactions | This Month
       </div>
-      <div className="w-full px-4 py-2 bg-white shadow rounded-md">
+      <div className="w-full px-4 py-2 bg-white drop-shadow-sm	 rounded-md">
         <div className="w-full h-[60%] flex items-center justify-between">
           <div className=" w-[260px] flex items-center relative my-2">
             <div className="absolute h-full p-4 pl-4 left-0 flex items-center scale-125 pointer-events-none opacity-40 ">
