@@ -90,26 +90,20 @@ A special thank you to Subhash Choudhary for presenting this engaging design cha
 
 ---
 
-Certainly! Here's a simplified and more mature version:
-
 ## About Me
 
-Hi, I'm **Pratik Shinde**, a third-year computer engineering student at Pune University. When I'm not immersed in coding, you'll find me enjoying indie music, indulging in anime, and exploring travel documentaries.
-
-I find the allure of high-paying job salaries quite intriguing (with a hint of sarcasm!). 🤑
+Hi, I'm **Pratik Shinde**, a third-year computer engineering student at Pune University. I love indie music and anime—two things that always bring a smile to my face.
 
 **Contact:**
 
 - 📧 Email: pvks5423@gmail.com
+- twitter : [twitter](https://twitter.com/_prattiikk)
 
 **Tech Skills:**
 
-- 💻 Proficient in basic frontend and backend development
-
-- 🚀 currently working on [spell-tree.vercel.app](https://spell-tree.vercel.app)
+- 🚀 currently working on personal project -  [spell-tree.vercel.app](https://spell-tree.vercel.app)
 
 **Opportunities:**
 
 - 🔍 Currently seeking internship roles and exciting opportunities
 
-Let's connect and explore the exciting intersection of technology and creativity!
