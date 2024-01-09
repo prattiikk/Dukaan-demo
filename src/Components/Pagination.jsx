@@ -41,13 +41,15 @@ const Pagination = ({ totalItems, itemsPerPage, onPageChange }) => {
       startPage = currentPage - sideNumbers;
       endPage = currentPage + sideNumbers;
     }
-
+    if (window.innerWidth < 640) {
+      endPage = 5;
+    }
     for (let i = startPage; i <= endPage; i++) {
       pageNumbers.push(
         <button
           key={i}
           onClick={() => handlePageChange(i)}
-          className={`w-[26px] h-[26px] rounded-md text-xs mx-1  ${
+          className={` w-[20px] sm:w-[26px] h-[20px] sm:h-[26px] rounded-md text-xs sm:mx-1  ${
             currentPage === i ? " bg-sky-700 text-white " : ""
           }`}
         >
@@ -81,7 +83,7 @@ const Pagination = ({ totalItems, itemsPerPage, onPageChange }) => {
       <button
         onClick={handlePrevious}
         disabled={currentPage === 1}
-        className="mr-4 text-sm border border-gray-500 border-opacity-40 rounded py-1 px-2 flex items-center justify-between hover:cursor-pointer"
+        className=" mr-2 sm:mr-4 text-sm border border-gray-500 border-opacity-40 rounded py-1 px-2 flex items-center justify-between hover:cursor-pointer"
       >
         <div className="mr-2">
           <FaAngleLeft />
@@ -92,7 +94,7 @@ const Pagination = ({ totalItems, itemsPerPage, onPageChange }) => {
       <button
         onClick={handleNext}
         disabled={currentPage === totalPages}
-        className="ml-4 text-sm border border-gray-500 border-opacity-40 rounded py-1 px-2 flex items-center justify-between hover:cursor-pointer"
+        className=" ml-2 sm:ml-4 text-sm border border-gray-500 border-opacity-40 rounded py-1 px-2 flex items-center justify-between hover:cursor-pointer"
       >
         Next
         <div className="ml-2">

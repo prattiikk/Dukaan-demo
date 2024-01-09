@@ -5,6 +5,8 @@ import Payments from "./Pages/Payments/Payments";
 
 import example from "./imgs/Imagestoreimg.png";
 
+import { IoMenu } from "react-icons/io5";
+
 import { GoHome } from "react-icons/go";
 import { LuClipboardList } from "react-icons/lu";
 import { AiOutlineAppstore } from "react-icons/ai";
@@ -40,9 +42,9 @@ function App() {
             {/* Page content here */}
             <label
               htmlFor="my-drawer-2"
-              className="btn btn-primary drawer-button lg:hidden"
+              className=" h-[60px] w-screen border-b-2 bg-[#1e2640]  lg:hidden"
             >
-              Open drawer
+              <IoMenu className="h-full ml-4 text-white scale-150" />
             </label>
             <SearchBar isActive={activeItem} />
             <Routes>
