@@ -4,7 +4,7 @@ import Transactions from "./Payments sub-sections/Transactions";
 
 const Payments = () => {
   return (
-    <div className=" w-[95%] h-[200vh] text-black">
+    <div className=" w-[95%] h-fit mb-8 text-black">
       <Overview />
       <Transactions />
     </div>

@@ -22,7 +22,7 @@ const SearchBar = ({ isActive }) => {
 
           {/* how it works button */}
 
-          <button className="flex justify-center items-center text-sm ml-4">
+          <button className=" hidden sm:flex justify-center items-center text-sm ml-4">
             <AiOutlineQuestionCircle />
             <span className="ml-2">How it works</span>
           </button>
@@ -30,7 +30,7 @@ const SearchBar = ({ isActive }) => {
 
         {/* Main Search Box */}
 
-        <div className="col-start-2 col-span-1 flex items-center relative">
+        <div className="col-start-2 col-span-2 sm:col-span-1 flex items-center relative">
           <div className="absolute h-[60%] p-4 pl-4 left-0 flex items-center scale-125 pointer-events-none opacity-40 ">
             <LuSearch />
           </div>
@@ -45,7 +45,7 @@ const SearchBar = ({ isActive }) => {
 
         {/* nav buttons on the right */}
 
-        <div className=" col-start-3 col-span-1 flex items-center justify-end">
+        <div className=" col-start-3 col-span-1 hidden sm:flex items-center justify-end">
           <button className=" bg-[#e5e5e5] h-[50%] w-[30px] rounded-full flex items-center justify-center scale-125 mx-4">
             <RiMessage2Fill />
           </button>

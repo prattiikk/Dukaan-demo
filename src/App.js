@@ -19,6 +19,8 @@ import { MdOutlinePalette } from "react-icons/md";
 import { HiOutlineLightningBolt } from "react-icons/hi";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SearchBar from "./Components/GlobalSearchBar";
+import Creadits from "./Components/Sidebar (side-menu) components/Creadits";
+import Home from "./Pages/Home/Home";
 
 function App() {
   const [activeItem, setActiveItem] = useState("");
@@ -45,9 +47,8 @@ function App() {
             <SearchBar isActive={activeItem} />
             <Routes>
               {/* Define your routes and corresponding components here */}
-
-              <Route path="/">Home </Route>
               <Route path="/Payments" element={<Payments />}></Route>
+              <Route path="/*" element={<Home />}></Route>
             </Routes>
           </div>
           <div className="drawer-side">
@@ -56,7 +57,7 @@ function App() {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu  w-60 min-h-full bg-[#1e2640] text-base-content">
+            <ul className="menu relative  w-60 min-h-full bg-[#1e2640] text-base-content">
               <Shop
                 shopImg={example}
                 shopName={"Nishyan"}
@@ -172,6 +173,9 @@ function App() {
                   to="/Plugins"
                 />
               </li>
+              <div className="w-full flex items-center justify-center">
+                <Creadits amt={"222.10"} />
+              </div>
             </ul>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import OrderCard from "../../../Components/OrderCard";
+import Pagination from "../../../Components/Pagination";
 import { LuSearch } from "react-icons/lu";
 import { TbArrowsSort } from "react-icons/tb";
 import { RxDownload } from "react-icons/rx";
@@ -183,6 +184,11 @@ const Transactions = () => {
           date={"7 July, 2023"}
           amt={"₹1,278.23"}
           fees={"₹22"}
+        />
+        <Pagination
+          totalItems={200}
+          itemsPerPage={19}
+          onPageChange={(page) => console.log("Page changed to:", page)}
         />
       </div>
     </div>
