@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import DrawerItem from "./Components/Sidebar (side-menu) components/DrawerItem";
 import Shop from "./Components/Sidebar (side-menu) components/StoreIdentity";
 import Payments from "./Pages/Payments/Payments";
+import { inject } from "@vercel/analytics";
 
 import example from "./imgs/Imagestoreimg.png";
 
@@ -32,6 +33,9 @@ function App() {
     console.log(activeItem);
   };
 
+  useEffect(() => {
+    inject();
+  }, []);
   return (
     <Router>
       <div className="App bg-[#fafafa]">
