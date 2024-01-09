@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import DrawerItem from "./Components/DrawerItem";
-import Shop from "./Components/Shop";
-import Payments from "./Pages/Payments";
+import DrawerItem from "./Components/Sidebar (side-menu) components/DrawerItem";
+import Shop from "./Components/Sidebar (side-menu) components/StoreIdentity";
+import Payments from "./Pages/Payments/Payments";
 
-import example from "./Components/example.jpeg";
+import example from "./Components/Sidebar (side-menu) components/example.jpeg";
 
 import { GoHome } from "react-icons/go";
 import { LuClipboardList } from "react-icons/lu";
@@ -18,7 +18,7 @@ import { GoPeople } from "react-icons/go";
 import { MdOutlinePalette } from "react-icons/md";
 import { HiOutlineLightningBolt } from "react-icons/hi";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SearchBar from "./Components/SearchBar";
+import SearchBar from "./Components/GlobalSearchBar";
 
 function App() {
   const [activeItem, setActiveItem] = useState("");

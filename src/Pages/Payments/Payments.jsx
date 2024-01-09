@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Overview from "../Components/Overview";
-import Transactions from "../Components/Transactions";
+import React from "react";
+import Overview from "./Payments sub-sections/Overview";
+import Transactions from "./Payments sub-sections/Transactions";
 
 const Payments = () => {
   return (

@@ -1,3 +1,4 @@
+// ordercard rendered inside of Transactions this month section of Payments page
 import React from "react";
 
 const OrderCard = ({ id, date, amt, fees }) => {
