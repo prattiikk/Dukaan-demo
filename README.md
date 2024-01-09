@@ -1,6 +1,6 @@
 # Dukaan Demo Challenge
 
-## live demo is hosted on [ Dukaan-Demo]()
+## live demo is hosted on [ Dukaan-Demo](https://dukaan-demo-pi.vercel.app/Payments)
 
 This project is my response to a frontend development challenge presented by **Subhash Choudhary** on Twitter. The challenge was to transform a Figma design into a functional website within a two-day timeframe.
 
