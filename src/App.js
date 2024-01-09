@@ -3,7 +3,7 @@ import DrawerItem from "./Components/Sidebar (side-menu) components/DrawerItem";
 import Shop from "./Components/Sidebar (side-menu) components/StoreIdentity";
 import Payments from "./Pages/Payments/Payments";
 
-import example from "./Components/Sidebar (side-menu) components/example.jpeg";
+import example from "./imgs/Imagestoreimg.png";
 
 import { GoHome } from "react-icons/go";
 import { LuClipboardList } from "react-icons/lu";

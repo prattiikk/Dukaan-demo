@@ -2,6 +2,7 @@
 
 import React from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import StoreLogo from "../../imgs/Imagestoreimg.png";
 
 const Shop = ({ shopImg, shopName, shopLink }) => {
   return (
@@ -9,7 +10,7 @@ const Shop = ({ shopImg, shopName, shopLink }) => {
       {/* store logo */}
       <div className="col-start-1 col-span-1 h-full w-full py-2 px-1  ">
         <img
-          src={shopImg}
+          src={StoreLogo}
           alt="shop img"
           className="w-full h-full object-cover rounded-sm "
         />
